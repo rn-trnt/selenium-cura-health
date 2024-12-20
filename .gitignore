@@ -1,0 +1,82 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+# General
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.swp
+*.DS_Store
+
+# IntelliJ IDEA specific files
+.idea/
+out/
+
+# Logs and temp files
+logs/
+*.tmp
+*.bak
+*.pid
+*.seed
+*.out
+
+# Maven specific files
+.mvn/
+!src/main/resources/
+!src/test/resources/
+
+# Gradle specific files
+.gradle/
+!gradle-wrapper.jar
+.gradle-cache/
+
+# Selenium WebDriver related
+**/screenshot/
+screenshot/
+
+# Operating System specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other ignored files
+test-output/
